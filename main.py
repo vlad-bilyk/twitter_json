@@ -16,6 +16,11 @@ ctx.verify_mode = ssl.CERT_NONE
 
 
 def info(elem, acct):
+    '''
+    (str, str) -> (str)
+    
+    Prints the info about a user by argument.
+    '''
     print('')
 
     url = twurl.augment(TWITTER_URL,
